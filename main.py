@@ -19,4 +19,4 @@ def main (page: Page):
 
     page.update()
 if '__main__' == __name__:
-    app(target=main)
+    app(target=main, assets_dir="assets")
